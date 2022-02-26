@@ -99,3 +99,67 @@ cite {
     padding-bottom: 1rem;
     font-weight: 100;
 }
+
+/* For mobile */
+/* 
+  ##Dispositivo = Mayoria de telefonos moviles (vertical)
+  ##Resolucion = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    #items {
+        margin: 0;
+        padding: 0rem 5rem 2rem 5rem;
+        text-align: justify;
+        font-size: 1.3rem;
+    }
+
+    li {
+        padding: 1rem;
+        line-height: 2rem;
+    }
+
+    #contenedor-imagen {
+        display: block;
+        margin: auto 1rem;
+        padding: 1rem 1rem 0 1rem;
+        background-color: var(--color-contenedor);
+        border-radius: 0.5rem;
+    }
+    
+    #imagen {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+    
+    #pie-imagen {
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        padding: 2rem;
+    }
+    
+    #titulo-cronologia {
+        display: block;
+        margin: 0;
+        text-align: center;
+        padding: 3rem 0 1.5rem 0;
+        font-size: 2rem;
+    }
+
+    #titulo {
+        margin-top: 5rem;
+        margin-bottom: 0;
+        padding-top: 3rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #descripcion {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+}
