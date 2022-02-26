@@ -50,7 +50,6 @@ html {
 #imagen {
     max-width: 100%;
     display: block;
-    height: auto;
     margin: auto;
 }
 
@@ -61,3 +60,42 @@ html {
     padding: 2rem;
 }
 
+#titulo-cronologia {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#items {
+    margin: 0;
+    padding: 0rem 8rem 2rem 8rem;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+li {
+    padding: 0.8rem;
+    line-height: 2rem;
+}
+
+#cita {
+    margin: 0;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+cite {
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 100;
+}
