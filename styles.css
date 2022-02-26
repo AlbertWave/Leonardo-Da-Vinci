@@ -72,7 +72,7 @@ html {
     margin: 0;
     padding: 0rem 8rem 2rem 8rem;
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 span {
@@ -80,8 +80,8 @@ span {
 }
 
 li {
-    padding: 0.8rem;
-    line-height: 2rem;
+    padding: 1rem;
+    line-height: 3rem;
 }
 
 #cita {
